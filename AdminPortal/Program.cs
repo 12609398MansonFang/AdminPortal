@@ -27,8 +27,6 @@ var app = builder.Build();
 // Apply CORS policy
 app.UseCors("AllowAll");
 
-app.UseHttpsRedirection();
-
 // Ensure database migration
 app.MigrateDb();
 

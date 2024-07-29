@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AdminPortal.Data.Migrations
 {
     [DbContext(typeof(AdminPortalContext))]
-    [Migration("20240712005642_SeedMessages")]
+    [Migration("20240728231743_SeedMessages")]
     partial class SeedMessages
     {
         /// <inheritdoc />

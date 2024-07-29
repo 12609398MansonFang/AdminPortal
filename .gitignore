@@ -423,3 +423,136 @@ ehthumbs.db
 
 # Resharper files
 _ReSharper*/
+
+# Vue.js specific files
+node_modules/
+dist/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Yarn
+.yarn/
+.pnp.*
+.yarn-cache/
+.yarnrc
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+
+# TypeScript specific files
+*.tsbuildinfo
+
+# Temporary files and directories
+temp/
+*.tmp
+.tmp/
+
+# NPM package files
+package-lock.json
+yarn.lock
+
+# Environment variables file
+.env
+.env.local
+.env.*.local
+
+# Ignore public folder (uncomment if you use public folder)
+#public/
+
+# Test coverage reports
+coverage/
+
+# Storybook files
+out/
+.storybook/
+storybook-static/
+
+# Ignore build outputs
+build/
+
+# Local history for Visual Studio Code
+.history/
+
+# Dependency directories
+jspm_packages/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Prerequisites
+*.d
+*.obj
+*.o
+*.ko
+*.lo
+*.lai
+*.la
+*.slo
+*.so
+*.so.*
+*.a
+*.lib
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Node.js
+node_modules/
+
+# Debug
+.vscode/.history
